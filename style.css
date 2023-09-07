@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("Foodie.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main{
+    width: auto;
+    height: auto;
+    background: linear-gradient(to top, rgba(5, 2, 2, 0.116), rgba(100, 40, 40, 0.868));
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+}
+.icon h1{
+    color: darkorange;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-top: 0px;
+    float: left;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+.menu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: darkgoldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.search{
+    width: 330px;
+    margin-left: 270px;
+    float: left;
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 11px;
+    background: transparent;
+    border: 2px solid darkgoldenrod;
+    border-radius: 8px;
+    margin-top: 22px;
+    color: rgb(175, 74, 74);
+    font-size: 16px;
+    padding: 10px;
+}
+.btn{
+    width: 100px;
+    height: 35px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 10px;
+    background-color: darkred;
+    margin-top: 13px;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+.btn:hover{
+    color: aliceblue;
+    background-color: brown;
+    cursor: pointer;
+}
+.content{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding-left: 60px;
+}
+.content span{
+    color: chocolate;
+    font-size: 65px;
+}
+.content p{
+    padding-left: 60px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2;
+    line-height: 30px;
+}
+.joinBtn {
+    width: 130px;
+    height: 40px;
+    background-color: darkred;
+    border: 2px solid darkgoldenrod;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    font-weight: bold;
+    font-size: large;
+}
+.joinBtn:hover{
+    color: aliceblue;
+    background-color: brown;
+    cursor: pointer;
+}
+.frm{
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid darkgoldenrod;
+    background-color: darkred;
+    position: absolute;
+    top: 48px;
+    left: 845px;
+    transform: translate(0, -5%);
+    padding: 0;
+}
+.form h2{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+.frm label{
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.frm input{
+    width: 300px;
+    height: 32px;
+    padding-left: 8px;
+    margin-left: 19px;
+    background: transparent;
+    border-bottom: 2px solid darkgoldenrod;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: lightsalmon;
+}
+::placeholder{
+    color: darkslategray;
+}
+.lgnBtn{
+    width: 130px;
+    height: 30px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 8px;
+    background-color: transparent;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: large;
+}
+.lgnBtn:hover{
+    color: aliceblue;
+    background-color: brown;
+    cursor: pointer;
+}
+.cntus{
+    margin-left: -60px;
+}
+.link{
+    padding-top: 20px;
+    color: black;
+    font-size: medium;
+    text-align: center;
+    padding-bottom: 0px!important;
+}
+.signup{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 0px!important;
+}
+.signup a{
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+}
+.logWt{
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    padding-bottom: 10px!important;
+}
+footer{
+    color: black;
+    font-size: large;
+    text-align: right;
+}
